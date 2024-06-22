@@ -99,8 +99,8 @@ for suit in dict_suit.keys():
 
 main_deck.shuffle_cards()
 
-player1 = Player("Jaques")
-player2 = Player("Magda")
+player1 = Player(input("Enter Player 1 Name: "))
+player2 = Player(input("Enter Player 2 Name: "))
 
 while len(main_deck) > 0:
     move_cards(main_deck, player1.hand, 1)
